@@ -90,6 +90,10 @@
   }
   
   .containerContact {
+    
+    position: relative;
+    width: 97%; 
+    right: 6%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -97,9 +101,11 @@
 
   article {
     float: right;
-    padding: 20px;
-    width: 70%;
     background-color: #fffcfc;
+    height: 300px; 
+  }
+  article {
+    float: right;
     height: 300px; 
   }
   
@@ -115,3 +121,6 @@
     margin-right: auto;
     width: 50%;
   }
+.section2 {
+  display: ruby;
+}
